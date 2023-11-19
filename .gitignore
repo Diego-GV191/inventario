@@ -30,9 +30,6 @@ client/*.sw?
 *.pyo
 __pycache__
 
-# Archivo de configuración local (si se utiliza)
-local_settings.py
-
 # Archivos de registro y archivos de caché
 logs/
 *.log
