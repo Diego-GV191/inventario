@@ -25,10 +25,16 @@ git clone https://github.com/Diego-GV191/inventario.git
 
 Asegúrate de tener [Python](https://www.python.org/) instalado. (Proyecto probado en Python 3.11.0) Desde la raíz del proyecto:
 
-1. Activa un entorno virtual usando `virtualenv` o `venv`:
+1. Crea y activa un entorno virtual usando `virtualenv` o `venv`:
     ```bash
+    # Crear un entorno virtual
+    python -m venv inv-venv
+    
     # Activar el entorno virtual (Windows)
     .\inv-venv\Scripts\activate
+    
+    # Activar el entorno virtual (Linux/Mac)
+    source inv-venv/bin/activate
     ```
 
 ## Ejecutar el servidor Django
