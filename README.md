@@ -11,7 +11,7 @@ El proyecto utiliza [Django](https://www.djangoproject.com/) del lado del servid
 
 ## Limitaciones
 
-- Solo se puede subir un maximo de 1000 registros.
+- Solo se puede subir un maximo de 1000 registros por lote.
 
 ## Clonar repositorio
 
