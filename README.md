@@ -47,4 +47,3 @@ Desde la carpeta "client":
     ```
 
 ¡Listo! Ahora deberías tener el servidor Django ejecutándose y el proyecto cliente de Node.js en desarrollo.
-````
