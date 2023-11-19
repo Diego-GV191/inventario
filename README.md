@@ -2,18 +2,12 @@
 
 ## Configuración del entorno virtual
 
-Asegúrate de tener Python instalado. Desde la raíz del proyecto:
+Asegúrate de tener [Python](https://www.python.org/) instalado. (Proyecto probado en Python 3.11.0) Desde la raíz del proyecto:
 
-1. Crea y activa un entorno virtual usando `virtualenv` o `venv`:
+1. Activa un entorno virtual usando `virtualenv` o `venv`:
     ```bash
-    # Crear un entorno virtual
-    python -m venv inv-venv
-    
     # Activar el entorno virtual (Windows)
     .\inv-venv\Scripts\activate
-    
-    # Activar el entorno virtual (Linux/Mac)
-    source inv-venv/bin/activate
     ```
 
 ## Ejecutar el servidor Django
@@ -32,7 +26,7 @@ Asegúrate de tener Python instalado. Desde la raíz del proyecto:
 
 Desde la carpeta "client":
 
-1. Asegúrate de tener Node.js instalado.
+1. Asegúrate de tener [Node.js](https://nodejs.org/en) instalado. (Proyecto probado en Node.js v18.12.1)
 
 2. Instala las dependencias del proyecto cliente:
     ```bash
