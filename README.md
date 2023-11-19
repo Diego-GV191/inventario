@@ -1,5 +1,18 @@
 # Ejecución del Proyecto
 
+Proyecto de inventario de quipo de medicion.
+
+## Descripcion de proyecto
+El proyecto utiliza [Django](https://www.djangoproject.com/) del lado del servidor y [react](https://vitejs.dev/guide/) del lado del cliente
+
+- Tiene la capacidad de agregar inventario individualmente o en masa con un archivo CSV (Separado por coma) 
+- Tiene la capacidad de modificar los datos del inventario
+- Tiene la capacidad de eliminar el inventario
+
+## Limitaciones
+
+- Solo se puede subir un maximo de 1000 registros.
+
 ## Clonar repositorio
 
 Para clonar el repositorio puedes ejecutar en powershell lo siguiente:
@@ -24,8 +37,15 @@ Asegúrate de tener [Python](https://www.python.org/) instalado. (Proyecto proba
     ```bash
     pip install -r requirements.txt
     ```
-
-2. Ejecuta el servidor Django:
+2. Realiza las migraciones de Django
+   ```bash
+   # Realiza las migraciones
+   python .\manage.py makemigrations
+   
+   # aplica las migraciones
+   python .\manage.py migrate
+   ```
+3. Ejecuta el servidor Django:
     ```bash
     python manage.py runserver 0.0.0.0:8000
     ```
