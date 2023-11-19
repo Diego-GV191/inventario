@@ -1,5 +1,13 @@
 # Ejecución del Proyecto
 
+## Clonar repositorio
+
+Para clonar el repositorio puedes ejecutar en powershell lo siguiente:
+
+```bash
+git clone https://github.com/Diego-GV191/inventario.git
+```
+
 ## Configuración del entorno virtual
 
 Asegúrate de tener [Python](https://www.python.org/) instalado. (Proyecto probado en Python 3.11.0) Desde la raíz del proyecto:
@@ -39,3 +47,4 @@ Desde la carpeta "client":
     ```
 
 ¡Listo! Ahora deberías tener el servidor Django ejecutándose y el proyecto cliente de Node.js en desarrollo.
+````
