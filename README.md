@@ -21,6 +21,11 @@ Para clonar el repositorio puedes ejecutar en powershell lo siguiente:
 git clone https://github.com/Diego-GV191/inventario.git
 ```
 
+## Configurar el servidor de lado de cliente
+1. Accede a el archivo que se encuentra en
+   client -> src -> api -> Inventory.API.js
+   y modifica la dirección de la API
+
 ## Configuración del entorno virtual
 
 Asegúrate de tener [Python](https://www.python.org/) instalado. (Proyecto probado en Python 3.11.0) Desde la raíz del proyecto:
@@ -46,10 +51,10 @@ Asegúrate de tener [Python](https://www.python.org/) instalado. (Proyecto proba
 2. Realiza las migraciones de Django
    ```bash
    # Realiza las migraciones
-   python .\manage.py makemigrations
+   python manage.py makemigrations
    
    # aplica las migraciones
-   python .\manage.py migrate
+   python manage.py migrate
    ```
 3. Ejecuta el servidor Django:
     ```bash
