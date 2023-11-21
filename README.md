@@ -15,7 +15,7 @@ El proyecto utiliza [Django](https://www.djangoproject.com/) del lado del servid
 
 ## Clonar repositorio
 
-Para clonar el repositorio puedes ejecutar en powershell lo siguiente:
+Para clonar el repositorio puedes ejecutar en powershell o terminal lo siguiente:
 
 ```bash
 git clone https://github.com/Diego-GV191/inventario.git
