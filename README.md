@@ -3,7 +3,7 @@
 Proyecto de inventario de quipo de medicion.
 
 ## Descripcion de proyecto
-El proyecto utiliza [Django](https://www.djangoproject.com/) del lado del servidor y [react](https://vitejs.dev/guide/) del lado del cliente
+El proyecto utiliza [Django](https://www.djangoproject.com/) del lado del servidor y [react]([https://vitejs.dev/guide/](https://vitejs.dev/)) del lado del cliente
 
 - Tiene la capacidad de agregar inventario individualmente o en masa con un archivo CSV (Separado por coma) 
 - Tiene la capacidad de modificar los datos del inventario
